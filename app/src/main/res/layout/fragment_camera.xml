@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caméra"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#da2d2d"
+        android:textStyle="bold|italic"
+        android:textSize="26dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prendre Photo"
+        android:id="@+id/btnTakePhoto"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imgCamera"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
